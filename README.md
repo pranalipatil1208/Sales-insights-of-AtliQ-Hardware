@@ -1,6 +1,6 @@
 # Sales insights of AtliQ Hardware
 
-##To unlock sales insights that are not visible before for sales team for decision support and automate them to reduced manual time spent in data gathering.
+To unlock sales insights that are not visible before for sales team for decision support and automate them to reduced manual time spent in data gathering.
 
 ## AtliQ Hardware
 A company that supplies computer hardware and peripherals to many clients across India.\
@@ -18,63 +18,6 @@ The sales director is facing a lot of challenges. The marketing is growing dynam
 - I used **`SQL`** queries in **`MySQL Workbench`** to look into the data and **`Tableau`** for **`ETL`** and **`Visualizations`** to create the insights dashboard.
 
 ---
-
-## Data Overview
-
-#### `# Tables`
-    
-<table>
-<tr><th>1. transactions</th><th>2. customers</th><th>3. date</th><th> 4. products </th><th> 5. markets </th></tr>
-<tr><td>
-
-|Field Name|Description|
-|----|---|
-|Product Code|ProdXXX|
-|Customer Code|CusXXX|
-|Market Code|MarkXXX|
-|Order Date|YYYY-MM-DD|
-|Sales Qty|Quantity Sold|
-|Sales Amount|Sales Amount|
-|Currency|INR/USD|
-|Profit Margin|(Sales Amount - Cost)/(Sales Amount)|
-|Profit|(Sales Amount-Cost)|
-|Cost|Total Cost of a Product|
-
-</td><td>
-
-|Field Name|Description|
-|---|---|
-|Customer Code|CusXXX|
-|Custmer Name|Stores Names|
-|Customer Type|Brick & Mortar/ E-Commerce|
-
-</td><td>
-
-|Field Name|Description|
-|---|---|
-|Date|YYYY-MM-DD|
-|Cy Date|YYYY-MM-DD: Starting date of each month of date|
-|Year|YYYY: Year of the date|
-|Month Name|MMMM: Month of the date column|
-|Date Yy Mmm|DD-MMM: Date and Month of the date column|
-	
-</td><td>
-	
-|Field Name|Description|
-|---|---|
-|Product Code|ProdXXX|
-|Product Type|Own Brand/Distribution|
-
-</td><td>
-
-|Field Name|Description|
-|---|---|
-|Markets Code|MarkXXX|
-|Markets Name|City Names|
-|Zone|South/Central/North|
-
-
-</td></tr> </table>
 
 #  
 #### `# Data Analysis Using SQL`
